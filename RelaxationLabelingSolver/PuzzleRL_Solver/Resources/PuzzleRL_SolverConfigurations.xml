@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configurations>
+	<RunParameters>
+		<ImageInput>
+		    <PieceSize>28</PieceSize>
+			<SourceImageName>MIT_dataset/5.png</SourceImageName>
+			<!--<RunAllFolderName>MIT_dataset</RunAllFolderName>-->
+		</ImageInput>
+
+		<PuzzleType>1</PuzzleType>
+		<NumOfRuns>1</NumOfRuns>
+		<SolverParameters>
+			<MinThresholdForPieceCompatibility Value="1e-8"/>
+		</SolverParameters>
+	</RunParameters>
+
+	<TechnicalParameters>
+		<IterationsFrequencyOfImagePrintsDuringAlg>200</IterationsFrequencyOfImagePrintsDuringAlg>
+	</TechnicalParameters>
+</Configurations>
