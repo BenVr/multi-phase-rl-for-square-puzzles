@@ -23,26 +23,26 @@ Since package support is not built-in into C++, and since the code uses some ext
 **2.** [Download *Conan*](https://conan.io/).<br/>
 **3.** [Download *Cmake*](https://cmake.org/).<br/>
 **4.** Open command line and cd into the main directory of the cloned repository.<br/>
-**5.** In this step, we wish to install the dependent packages with *Conan*. Installing is done separtely for release and debug versions of the packages (you may install only debug or only release if you wish; please note that packages may take few GBs of memory).
+**5.** In this step, we wish to install the dependent packages with *Conan*. Installing is done separtely for release and debug versions of the packages (please note that packages may take few GBs of memory).
    - The command for release packages installation is:
 
-            conan install . --build=missing -g cmake_multi -s build_type=Release
+    conan install . --build=missing -g cmake_multi -s build_type=Release
             
    - The command for debug packages installation is:
 
-            conan install . --build=missing -g cmake_multi -s build_type=Debug  
+    conan install . --build=missing -g cmake_multi -s build_type=Debug
             
 **6.** After all the packages were installed by *Conan*, we are ready to use *Cmake*.<br/>
    - Still in the repository's main directory, type:
-
-            mkdir build && cd build  
+   
+    mkdir build && cd build
             
    - To produce *CMake* products, type:
      
-            cmake .. 
+    cmake ..
 
 **7.** Now 'build' directory contains all the files required for building the program exectubale.<br/>
-On Windows, the 'build' directory will contain a Visual Studio solution named 'RelaxationLabelingSolver.sln' - and now you can open this solution, set the 'PuzzleRL_Solver' project ans startup project, and building the solver.
+On Windows, the 'build' directory will contain a Visual Studio solution named 'RelaxationLabelingSolver.sln' - and now you can open this solution, set the 'PuzzleRL_Solver' project as startup project, and building the solver.
 
 ## Running the Solver
 
