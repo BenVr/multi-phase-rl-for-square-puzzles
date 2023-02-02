@@ -1,0 +1,10 @@
+/build
+conan.lock
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conanbuildinfo_debug.cmake
+conanbuildinfo_multi.cmake
+conanbuildinfo_release.cmake
+conaninfo.txt
+graph_info.json
+/RelaxationLabelingSolver/PuzzleRL_Solver/Output/
