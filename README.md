@@ -10,7 +10,7 @@
     + [Changing Program Parameters](#changing-program-parameters)
     
 ## Introduction
-This repository contains the C++ implmentation of the square jigsaw puzzle solver suggested in the "Multi-Phase Relaxation Labeling for Square Jigsaw Puzzle Solving" paper. Please see [the project webpage](https://icvl.cs.bgu.ac.il/multi-phase-rl-for-jigsaw-puzzle-solving/) for more details.
+This repository contains the C++ implmentation of the square jigsaw puzzle solver suggested in the ["Multi-Phase Relaxation Labeling for Square Jigsaw Puzzle Solving" paper](https://arxiv.org/abs/2303.14793). Please see [the project webpage](https://icvl.cs.bgu.ac.il/multi-phase-rl-for-jigsaw-puzzle-solving/) for more details.
 
 ## Installation
 
@@ -100,4 +100,21 @@ Below is a documentation of the parameters in XML file:
     <IterationsFrequencyOfImagePrintsDuringAlg>200</IterationsFrequencyOfImagePrintsDuringAlg>
   </TechnicalParameters>
 </Configurations>
+```
+
+## Citation
+If you find this project useful, please cite our paper:
+```
+@conference{vardi2023multi,
+author={Ben Vardi and Alessandro Torcinovich and Marina Khoroshiltseva and Marcello Pelillo and Ohad Ben{-}Shahar},
+title={Multi-Phase Relaxation Labeling for Square Jigsaw Puzzle Solving},
+booktitle={Proceedings of the 18th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 4: VISAPP,},
+year={2023},
+pages={785-795},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0011622800003417},
+isbn={978-989-758-634-7},
+issn={2184-4321},
+}
 ```
